@@ -1,0 +1,105 @@
+
+img{
+    height: 35px;
+    margin-right: 8px;
+  }
+
+#navbar{
+    background-color: #272B33;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    margin: 10px;
+}
+
+h2{
+    margin: 5px;
+}
+
+h4{
+    margin: 0px 30px;
+}
+
+p{
+    margin: 10px 0px;
+}
+
+a{
+    text-decoration: none;
+    color: #50A6FF;
+}
+a:hover{
+    text-decoration: underline;
+}
+#searchDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+input{
+    margin-right: 10px;
+    border: 2px solid #272B33;
+    border-radius: 5px;
+    height: 27px;
+    width: 250px;
+    background-color: #a1a4ac;
+    padding-left: 5px;
+}
+
+button{
+    border: 2px solid #272B33;
+    border-radius: 5px;
+    height: 30px;
+    background-color: #babeca;
+    font-weight: bold;
+}
+
+#sortOption{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    border-bottom: 2px solid #272B33;
+}
+label{
+    margin-left: 30px;
+}
+
+option{
+  background-color: #525964;
+  z-index: 99;
+}
+
+select{
+  background-color: #525964;
+  border: 1px solid #272B33;
+  color: rgb(247, 247, 247);
+  border-radius: 3px;
+  margin-left: 3px;
+}
+
+select-selected{
+
+    background-color: #272B33;
+}
+
+#result{
+
+    margin: 20px;
+    padding: 20px;
+    border: 1px dashed #5b71ac;
+    border-radius: 8px;
+}
+
+#navBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
